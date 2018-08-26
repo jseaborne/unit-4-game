@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Game</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Added link to the jQuery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body>
+
+  <div class="Main">
+
+    <h1 class="text-center">Welcome to the CRYSTAL game...</h1>
+
+    <div class="text-center">
+
+      <!-- Here we have our button for generating random numbers (#random-button) -->
+      <button id="random-button" class="btn btn-primary btn-lg fa fa-gamepad fa-6"></button>
+
+    </div>
+
+  </div>
+
+  <div class="card-body text-center">
+    <button id="button-1" class="btn btn-danger btn-choice" value="12">
+      <h1>1</h1>
+    </button>
+    <button id="button-2" class="btn btn-danger btn-choice" value="8">
+      <h1>2</h1>
+    </button>
+    <button id="button-3" class="btn btn-danger btn-choice" value="1">
+      <h1>3</h1>
+    </button>
+    <button id="button-4" class="btn btn-danger btn-choice" value="6">
+      <h1>4</h1>
+    </button>
+  </div>
+
+  <!-- We add the computer number on the screen -->
+  <h1 id="compRandomN"></h1>
+  
+  <h1 id="crystalTotalN">Crystal total is: </h1>  
+
+  <script src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
